@@ -38,7 +38,7 @@ function HeroSection() {
               duration: 0.5,
               delay: 0.5,
             }}
-            className="w-full h-96"
+            className="w-full h-96 lg:h-[410px]"
             style={{
               backgroundImage: `url(/assets/th.jpeg)`,
               backgroundSize: "cover",

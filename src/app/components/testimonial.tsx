@@ -3,8 +3,8 @@ import React from "react";
 function Testimonial() {
   return (
     <div className="w-full sm:w-1/2 lg:w-1/3 py-2 px-4">
-      <div className="bg-neutral rounded-md p-6 text-md border border-neutral-800 font-thin">
-        <p className="">
+      <div className="bg-neutral rounded-md p-6 text-md border border-neutral-800">
+        <p>
           Lorem Ipsum is dummy text used in printing and typesetting industry
           since the 1500s. Learn about its origin, variations, translations and
           how to generate it online.
@@ -17,7 +17,7 @@ function Testimonial() {
           />
           <div>
             <h6>Jane Doe</h6>
-            <span className="text-sm font-normal italic text-neutra-600">
+            <span className="text-sm italic text-neutral-600">
               MaryLand,California
             </span>
           </div>
