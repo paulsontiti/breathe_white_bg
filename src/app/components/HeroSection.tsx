@@ -81,13 +81,13 @@ function HeroSection() {
               Revitalize and Breathe
             </h1>
             <p className="mt-5 text-lg text-center text-neutral-500 max-width-4xl">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-              est, qui dolorem ipsum quia dolor sit amet
+              Discover a breath of fresh air with Breathe, the all-natural lung
+              supplement designed to support healthy respiratory function.
+              Whether you or your loved ones experience occasional breathing
+              difficulties or chronic respiratory issues, Breathe is here to
+              help. Formulated with a blend of powerful herbs and nutrients, our
+              supplement aims to enhance lung capacity, reduce inflammation, and
+              promote overall respiratory health.
             </p>
           </p>
           <CallToAction />

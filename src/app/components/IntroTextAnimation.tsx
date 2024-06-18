@@ -3,22 +3,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 
 const IntroTextAnimation = () => {
-  const intro = [
-    `B`,
-    1000,
-    `BR`,
-    1000,
-    `BRE`,
-    1000,
-    `BREA`,
-    1000,
-    `BREAT`,
-    1000,
-    `BREATH`,
-    1000,
-    `BREATHE`,
-    1000,
-  ];
+  const intro = [`Easy`, 500, `Breathing`, 500, `with`, 500, `BREATHE`, 500];
   return (
     <div className="mt-12">
       <TypeAnimation

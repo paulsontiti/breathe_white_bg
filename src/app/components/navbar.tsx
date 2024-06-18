@@ -14,7 +14,9 @@ function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
             <h3 className="mr-2">Logo</h3>
-            <span className="text-xl tracking-tight">Breathe</span>
+            <span className="text-xl tracking-tight bg-gradient-to-r from-orange-400 to-orange-800 text-transparent bg-clip-text">
+              Breathe
+            </span>
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
             <li>Home</li>
@@ -36,7 +38,11 @@ function Navbar() {
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
             <button onClick={toggleDrawerOpen}>
-              {drawerOpen ? <X /> : <Menu />}
+              {drawerOpen ? (
+                <X className="text-orange-500" />
+              ) : (
+                <Menu className="text-orange-500" />
+              )}
             </button>
             {drawerOpen}
           </div>
